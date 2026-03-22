@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 client.on("ready", () => {
-  console.log( Online: ${client.user.tag});
+  console.log(`✅ Online: ${client.user.tag}`);
 });
 
 client.login(process.env.TOKEN);
