@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-  console.log(`Online: ${client.user.tag}`);
+  console.log(Online: ${client.user.tag});
 });
 
 client.on('messageCreate', message => {
